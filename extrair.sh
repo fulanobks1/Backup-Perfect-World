@@ -14,7 +14,7 @@ echo ""
 ##################################################################
 
 echo "Baixando o Backup"
-cd /Backup/
+cd /Backupsalvo/
 
 wget http://$ip:80/totalbackup/$data-mysql.tar.bz2
 wget http://$ip:80/totalbackup/$data-logs.tar.bz2
